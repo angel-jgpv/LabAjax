@@ -1,0 +1,98 @@
+body{
+    background-color: #000000;
+}
+
+header{
+    margin: 3% 3% 0 3%;
+}
+
+p, h2, h3, h4, h5, h6, ul, ol li{
+    color: #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin: 1% auto 4% auto;
+}
+
+h4{
+    margin: 2% auto 0 auto;
+}
+
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.filme img{
+    border-radius: 7px;
+    width: 45%;
+    margin: 1% 3% 1% 0;
+}
+
+h1{
+    color: #ff0000;
+    font-size: 40pt;
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.filme{
+    width: 40%;
+    margin: 2%;
+    padding: 2% 3% 3% 3%;
+    background-color: #181717;
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: none;
+}
+
+.filme ul{
+    display: inline;
+    list-style-type: disc;
+}
+
+.filme li::before{
+    content: "| ";
+}
+
+.filme li:first-child::before{
+    content: "";
+}
+
+.filme li{
+    display: inline;
+    margin: auto 0.25% auto 1%;
+}
+
+.top, .bottom{
+    display: flex;
+}
+
+.bottom{
+    justify-content: space-between;
+}
+
+#filmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.idade{
+    font-size: 20pt;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 3%;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
